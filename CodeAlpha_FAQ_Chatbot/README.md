@@ -79,7 +79,7 @@ This FAQ chatbot uses machine learning and NLP techniques to understand user que
 
 5. **Run the application**
    ```bash
-   streamlit run app.py
+   uv run streamlit run app.py
    ```
 
 6. **Access the chatbot**
