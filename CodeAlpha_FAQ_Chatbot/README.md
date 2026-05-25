@@ -74,7 +74,7 @@ This FAQ chatbot uses machine learning and NLP techniques to understand user que
 
 4. **Install dependencies**
    ```bash
-   pip install nltk pandas scikit-learn streamlit
+   uv add nltk pandas scikit-learn streamlit
    ```
 
 5. **Run the application**
@@ -89,7 +89,7 @@ This FAQ chatbot uses machine learning and NLP techniques to understand user que
 
 ### Basic Usage
 
-1. Start the application using `streamlit run app.py`
+1. Start the application using `uv run streamlit run app.py`
 2. Type your question in the chat input box
 3. Press Enter to get an instant answer
 4. View the confidence score to see match accuracy
