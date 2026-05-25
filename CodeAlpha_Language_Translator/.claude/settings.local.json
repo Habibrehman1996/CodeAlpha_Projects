@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -X POST http://localhost:3000/api/translate -H 'Content-Type: application/json' -d '{\"text\":\"Hello, how are you?\",\"sourceLang\":\"English\",\"targetLang\":\"Spanish\"}')",
+      "Bash(curl -X POST http://localhost:3000/api/translate -H 'Content-Type: application/json' -d '{\"text\":\"Good morning\",\"sourceLang\":\"English\",\"targetLang\":\"French\"}')",
+      "Bash(curl -X POST http://localhost:3000/api/translate -H 'Content-Type: application/json' -d '{\"text\":\"Thank you\",\"sourceLang\":\"English\",\"targetLang\":\"Japanese\"}')",
+      "Bash(curl -X POST http://localhost:3000/api/translate -H 'Content-Type: application/json' -d '{\"text\":\"I love programming\",\"sourceLang\":\"English\",\"targetLang\":\"German\"}')"
+    ]
+  }
+}
