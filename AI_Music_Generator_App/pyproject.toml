@@ -1,0 +1,12 @@
+[project]
+name = "ai-music-generator-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "music21>=9.9.2",
+    "numpy>=2.2.6",
+    "streamlit>=1.58.0",
+    "tensorflow>=2.21.0",
+]
